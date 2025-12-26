@@ -29,6 +29,7 @@ User Request:
 TASK:
 - Continue the story naturally.
 - Do not contradict past events.
+- If we are reaching the later stages of the arc make sure to give an ending
 
 OUTPUT FORMAT (JSON ONLY):
 {{

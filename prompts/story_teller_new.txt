@@ -24,7 +24,7 @@ TASK:
 - Begin a brand new story following the arc.
 - Introduce characters, setting, and tone.
 - Clearly establish a reason for the story to move forward
-- Introduce an event or discovery that naturally moves the story forward in line with the arc theme.
+- Introduce an event or discovery that naturally moves the story forward in line with the arc theme
 
 OUTPUT FORMAT (JSON ONLY):
 {{

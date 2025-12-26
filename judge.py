@@ -100,7 +100,6 @@ def evaluate_story(
     raw_output = call_model(prompt)
 
     result = parse_judge_output(raw_output)
-    print(result)
 
     if result["overall_pass"]:
         return {

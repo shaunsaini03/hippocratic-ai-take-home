@@ -118,7 +118,6 @@ def generate_story(context: Dict) -> Dict:
     prompt = build_storyteller_prompt(context)
     raw_output = call_model(prompt)
     data = parse_storyteller_output(raw_output)
-    print(data)
     return data
 
 
