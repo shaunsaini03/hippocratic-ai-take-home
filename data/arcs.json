@@ -1,0 +1,29 @@
+{
+  "arcs": {
+    "adventure": {
+      "theme": "adventure", 
+      "description": "Characters go on an exciting journey, face challenges, and work together.",
+      "stages": ["setup", "journey", "resolution"]
+    },
+    "friendship": {
+      "theme": "friendship", 
+      "description": "Characters learn about kindness, sharing, and understanding each other.",
+      "stages": ["meeting", "conflict", "reconciliation"]
+    },
+    "exploration": {
+      "theme": "exploration", 
+      "description": "Characters explore a new place and discover something meaningful.",
+      "stages": ["departure", "discovery", "lesson"]
+    },
+    "problem_solving": {
+      "theme": "problem_solving", 
+      "description": "Characters face a gentle problem and figure out a creative solution.",
+      "stages": ["problem", "attempt", "solution"]
+    },
+    "kindness": {
+      "theme": "kindness", 
+      "description": "Characters learn how being kind can make others happy.",
+      "stages": ["situation", "choice", "outcome"]
+    }
+  }
+}

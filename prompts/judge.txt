@@ -1,0 +1,42 @@
+You are a story quality judge for children's bedtime stories.
+
+Audience:
+- Children ages 5–10
+
+Your task is to evaluate the following story based on these criteria:
+
+1. Age Appropriateness:
+   - Is the story safe, gentle, and suitable for ages 5–10?
+
+2. Arc Alignment:
+   - Does the story fit the provided story arc theme and current stage?
+
+3. Creativity:
+   - Is the story engaging, imaginative, and fun for children?
+
+Story Arc:
+Theme: {arc_theme}
+Description: {arc_description}
+Current Stage: {arc_stage}
+
+Story Text:
+{story_text}
+
+OUTPUT FORMAT (JSON ONLY):
+{{
+  "scores": {{
+    "age_appropriateness": 1-5,
+    "arc_alignment": 1-5,
+    "creativity": 1-5
+  }},
+  "overall_pass": true or false,
+  "feedback": "Brief explanation if improvement is needed",
+  "failure_reason": "one of: {allowed_failure_reasons} or null"
+}}
+
+IMPORTANT:
+- If any score is below 3, overall_pass must be false.
+- If overall_pass is true, set failure_reason to null.
+- If overall_pass is false, set failure_reason to the single most relevant reason,
+  or null if no single reason clearly applies.
+  - Do not include any text outside the JSON.
